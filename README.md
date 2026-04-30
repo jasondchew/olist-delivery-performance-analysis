@@ -3,7 +3,7 @@
 Analyzed 95K+ e-commerce orders to understand how delivery delays, order complexity, and geographic hotspots impact customer satisfaction.
 
 ## Business Problem
-In e-commerce, delivery performance is a key driver of customer experience. While most orders are delivered on time, a subset of delays—particularly severe delays (>=3 days)—may account for the bulk of customer dissatisfaction.
+In e-commerce, delivery performance is a key driver of customer experience. While most orders are delivered on time, a subset of delays—particularly severe delays (>3 days)—may account for the bulk of customer dissatisfaction.
 
 This project evaluates:
 - How delivery delays affect review scores
