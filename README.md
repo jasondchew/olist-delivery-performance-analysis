@@ -33,14 +33,15 @@ This project evaluates:
 ## Project Structure
 - `/01_sql` → Data extraction, joins, feature engineering, and analysis queries
 - `/02_jupyter` → Python data cleaning and validation
-- `/03_dashboard` → Power BI (in progress)
+- `/03_data` → Final dataset documentation 
+- `/04_dashboard` → Power BI (in progress)
 
 ## Current Status
 - SQL + Python analysis complete  
 - Final dataset prepared for BI  
 - Power BI executive dashboard in progress  
 
-## 🛠 Tools Used
+## Tools Used
 - PostgreSQL (pgAdmin)
 - Python (pandas, Jupyter Notebook)
 - Power BI
