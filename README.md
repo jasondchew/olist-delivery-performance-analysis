@@ -21,7 +21,7 @@ This project evaluates:
    - Cleaned and deduplicated final dataset
    - Prepared analysis-ready table for BI tools
 
-3. **Power BI (In Progress)**
+3. **Power BI**
    - Executive dashboard to visualize delivery performance and customer impact
 
 ## Key Analysis Areas
@@ -34,12 +34,7 @@ This project evaluates:
 - `/01_sql` → Data extraction, joins, feature engineering, and analysis queries
 - `/02_jupyter` → Python data cleaning and validation
 - `/03_data` → Final dataset documentation 
-- `/04_dashboard` → Power BI (in progress)
-
-## Current Status
-- SQL + Python analysis complete  
-- Final dataset prepared for BI  
-- Power BI executive dashboard in progress  
+- `/04_dashboard` → Power BI 
 
 ## Tools Used
 - PostgreSQL (pgAdmin)
