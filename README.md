@@ -30,16 +30,26 @@ This project evaluates:
 - Multi-seller order complexity vs review scores
 - Geographic hotspots for delivery delays
 
+## Key Insights
+- 91.9% of orders arrived on time
+- 5.24% of orders were severely late (3+ days)
+- On-time orders averaged a review score of **4.29**
+- Severely late orders averaged a review score of **1.94**
+- A small percentage of delayed orders generated a disproportionate share of negative customer reviews
+
 ## Project Structure
 - `/01_sql` → Data extraction, joins, feature engineering, and analysis queries
 - `/02_jupyter` → Python data cleaning and validation
-- `/03_data` → Final dataset documentation 
-- `/04_dashboard` → Power BI 
+- `/03_data` → Data source and reproduction steps (raw/processed CSVs are gitignored — see [`03_data/README.md`](03_data/README.md))
+- `/04_dashboard` → Power BI template
 
 ## Tools Used
 - PostgreSQL (pgAdmin)
 - Python (pandas, Jupyter Notebook)
 - Power BI
+
+## Additional Resources
+- [Capstone Visuals (.pdf)](Capstone%20II_Visuals%20%5BJason%20Chew%5D.pdf)
 
 ## Key Takeaway
 Severe delivery delays and order complexity are strongly associated with lower customer satisfaction, highlighting clear opportunities for operational improvement.
