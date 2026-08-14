@@ -45,7 +45,7 @@ features AS (
         EXTRACT(DAY FROM order_delivered_customer_date - order_estimated_delivery_date) AS delay_days,
         CASE
             WHEN order_delivered_customer_date <= order_estimated_delivery_date THEN 'on_time'
-            WHEN order_delivered_customer_date <= order_estimated_delivery_date + INTERVAL '3 days' THEN 'slightly_late'
+            WHEN order_delivered_customer_date <= order_estimated_delivery_date + INTERVAL '2 days' THEN 'slightly_late'
             ELSE 'very_late'
         END AS delay_category
     FROM base

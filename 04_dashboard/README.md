@@ -27,7 +27,7 @@ How do delivery delays affect customer satisfaction, and where should Olist focu
 ## Project Files
 
 - [Executive Presentation (.pdf)](Olist_Presentation.pdf)
-- [Power BI Dashboard (.pbit)](Olist_Presentation_Power%20BI.pbit)
+- [Power BI Dashboard (.pbix)](Olist_Presentation_Power%20BI.pbix)
 
 ---
 
